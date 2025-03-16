@@ -29,18 +29,17 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("DOM carregado! Executando o carrossel...");
 
     const images = [
-       "assets/imgs/Joia.jpg", 
-     "assets/imgs/maosFechadas.jpg", 
-     "assets/imgs/MaosReza.jpg", 
-     "assets/imgs/Joia.jpg", 
-     "assets/imgs/maosFechadas.jpg", 
-     "assets/imgs/MaosReza.jpg", 
-     "assets/imgs/Joia.jpg", 
-     "assets/imgs/maosFechadas.jpg", 
-     "assets/imgs/MaosReza.jpg", 
-     "assets/imgs/Joia.jpg", 
-     "assets/imgs/maosFechadas.jpg", 
-     "assets/imgs/MaosReza.jpg"
+        "assets/imgs/FotosThiagoAjudando/1.png", 
+        "assets/imgs/FotosThiagoAjudando/2.png", 
+        "assets/imgs/FotosThiagoAjudando/3.png", 
+        "assets/imgs/FotosThiagoAjudando/4.png", 
+        "assets/imgs/FotosThiagoAjudando/5.png", 
+        "assets/imgs/FotosThiagoAjudando/6.png", 
+        "assets/imgs/FotosThiagoAjudando/7.png", 
+        "assets/imgs/FotosThiagoAjudando/8.png", 
+        "assets/imgs/FotosThiagoAjudando/9.png", 
+        "assets/imgs/FotosThiagoAjudando/10.png", 
+     
     ];
 
     let currentIndex = 0;
