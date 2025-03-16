@@ -252,8 +252,8 @@ nav ul li{
     .hero{
         position: relative; /* Torna a section um contexto para a imagem absoluta */
         width: 100%;
-        height: 900px;
-        background: url('assets/imgs/BackgroudSec1.png');
+        height: 700px;
+        background: url('assets/imgs/BKPag01.png');
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden; /* Impede que elementos dentro ultrapassem a área */
@@ -271,20 +271,20 @@ nav ul li{
         position: relative;
         top: auto;
         right: auto;
-        margin-top: 43%;
+        margin-top: 3%;
+        margin: auto;
         transform: none;
-        text-align: center;
-        max-width: 100%;
+        text-align: left;
+        max-width: 90%;
         z-index: 1;
+        
     }
 
     .content h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         text-shadow: 2px 2px 5px #b5b4ff;
-        /* -webkit-text-stroke: 1px white; */
-        /* background-color: rgba(255, 255, 255, 0.3); */
-    /* padding: 5px; */
+        color: #b5b4ff;
     }
 
     .content button {
@@ -542,9 +542,12 @@ nav ul li{
 
 
 .imagensRedesSociaisSec3{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -25px;
+    display: flex;
+    width: 100%;
+    height: 100px;
 }
 
 .imagemCelular{
@@ -571,6 +574,22 @@ nav ul li{
 .donate p{
     font-size: 25px;
 }
+
+.donate button {
+    margin-left: 0px;
+    font-size: 30px;
+    background: linear-gradient(90deg, 
+    black,
+    #3533cd 
+);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;    
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 
 }
 
@@ -724,6 +743,21 @@ margin-left: 200px;
 
 
 @media screen and (max-width: 1358px) {
+
+    .marquee {
+        width: 500%;
+     }
+     
+     .marquee span {
+         color: rgb(0, 0, 0);
+         font-size: 18px;
+         font-family: "Poppins", sans-serif;
+         font-weight: bold;
+         margin: 0 20px;
+     }     
+
+
+
     .container3{
         flex-direction: column;
         width: 100%;
