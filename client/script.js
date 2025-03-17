@@ -29,16 +29,16 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("DOM carregado! Executando o carrossel...");
 
     const images = [
-        "assets/imgs/FotosThiagoAjudando/1.png", 
-        "assets/imgs/FotosThiagoAjudando/2.png", 
-        "assets/imgs/FotosThiagoAjudando/3.png", 
-        "assets/imgs/FotosThiagoAjudando/4.png", 
-        "assets/imgs/FotosThiagoAjudando/5.png", 
-        "assets/imgs/FotosThiagoAjudando/6.png", 
-        "assets/imgs/FotosThiagoAjudando/7.png", 
-        "assets/imgs/FotosThiagoAjudando/8.png", 
-        "assets/imgs/FotosThiagoAjudando/9.png", 
-        "assets/imgs/FotosThiagoAjudando/10.png", 
+        "assets/imgs/6.png", 
+        "assets/imgs/2.png", 
+        "assets/imgs/3.png", 
+        "assets/imgs/4.png", 
+        "assets/imgs/5.png", 
+        "assets/imgs/1.png", 
+        "assets/imgs/7.png", 
+        "assets/imgs/8.png", 
+        "assets/imgs/9.png", 
+        "assets/imgs/10.png", 
      
     ];
 
